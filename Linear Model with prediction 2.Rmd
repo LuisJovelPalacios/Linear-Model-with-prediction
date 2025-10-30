@@ -38,3 +38,9 @@ cor(SIMS~ARM,data=data)
 model.1 <- lm(SIMS~ARM,data=data)
 summary.lm(model.1)
 ```
+
+### Create target
+
+```{r}
+target <- data.frame(ARM=90,GRIP=90)
+```
