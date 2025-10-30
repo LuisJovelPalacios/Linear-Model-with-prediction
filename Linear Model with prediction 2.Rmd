@@ -104,9 +104,10 @@ cor(SIMS~ARM+GRIP,data=data)
 
 The correlation number for model 3 (SIMS~ARM+GRIP) is higher compared to model 2 (SIMS~GRIP) and model 1 (SIMS~ARM), so the correlation is better when using both models (ARM and GRIP) rather then using one of them (either ARM or GRIP)
 
-### Inferential Results
+### Inferential Results Model 3
 ```{r}
 model.3 <- lm(SIMS~ARM+GRIP,data=data)
 summary.lm(model.3)
 ```
 
+The Formula for getting Model 3 is Formula = -5.433871 + 0.037311 * ARM + 0.024470 * GRIP
