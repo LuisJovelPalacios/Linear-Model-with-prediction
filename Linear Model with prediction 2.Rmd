@@ -102,5 +102,7 @@ basicNN + geom_point () + ggtitle("SIMS-GRIP") + theme(plot.title = element_text
 cor(SIMS~ARM+GRIP,data=data)
 ```
 
+The correlation number for model 3 (SIMS~ARM+GRIP) is higher compared to model 2 (SIMS~GRIP) and model 1 (SIMS~ARM), so the correlation is better when using both models (ARM and GRIP) rather then using one of them (either ARM or GRIP)
+
 
 
